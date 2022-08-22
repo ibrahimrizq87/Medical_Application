@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Medical Services</string>
+    <string-array name="spinnerItem">
+        <item></item>
+        <item> اسيوط </item>
+        <item> القاهرة </item>
+        <item> اسكندرية </item>
+        <item> الجيزة </item>
+        <item> المنيا </item>
+        <item> بنى سويف </item>
+
+    </string-array>
+    <string-array name="doctor_spicalist">
+        <item>دكتور باطنه</item>
+        <item>دكتور مخ و اعصاب</item>
+        <item>دكتور عظام</item>
+
+    </string-array>
+    <string-array name="place_types">
+        <item> عيادة دكتور </item>
+        <item> مستشفى </item>
+        <item> معمل تحاليل طبية </item>
+        <item> معمل اشاعات </item>
+    </string-array>
+    <string-array name="person_types">
+        <item>صيدلى</item>
+        <item>اخصائى علاج طبيعى</item>
+        <item>ممرض/ة</item>
+        <item>دكتور باطنه</item>
+        <item>دكتور مخ و اعصاب</item>
+        <item>دكتور عظام</item>
+        <item>مكان خدمة</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

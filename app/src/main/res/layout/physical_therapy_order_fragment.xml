@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="علاج طبيعى"
+        android:textSize="50dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+    <EditText
+        android:id="@+id/PATName"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape1"
+        android:gravity="center"
+        android:hint="اسم الشخص"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.1" />
+
+
+    <EditText
+        android:id="@+id/PATAddress"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape1"
+        android:gravity="center"
+        android:hint="اكتب العنوان"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PATName"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <EditText
+        android:id="@+id/PATPhone"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape1"
+        android:hint="رقم التليفون"
+        android:gravity="center"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PATAddress"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:background="@drawable/custom_botton"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/PATSend"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PATPhone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
